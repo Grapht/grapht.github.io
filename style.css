@@ -49,3 +49,22 @@ p {
         font-family: 'Comfortaa', sans-serif;
         font-size: 3vw;
 }
+
+@media only screen and (max-width: 991px) {
+        h1 {
+                font-size: 70px;
+        }
+
+        p {
+                font-size: 30px;
+        }
+
+        .container video {
+                min-height:100%;
+                top: -13.874px;
+                left:2.973px;
+                width: 69.3594px;
+                /*transform: translateX(calc(-1*(100% - 100vw) / 2));*/
+        }
+
+}
